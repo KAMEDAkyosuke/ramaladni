@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CC138CF1C099855009FF6CF /* Ramaladni.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC138CE1C099855009FF6CF /* Ramaladni.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CC138D61C099856009FF6CF /* Ramaladni.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC138CB1C099855009FF6CF /* Ramaladni.framework */; };
+		0CC138DB1C099856009FF6CF /* RamaladniTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC138DA1C099856009FF6CF /* RamaladniTests.m */; };
+		0CC138FD1C0998C2009FF6CF /* RAMWebServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC138E61C0998C2009FF6CF /* RAMWebServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CC138FE1C0998C2009FF6CF /* RAMWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC138E71C0998C2009FF6CF /* RAMWebServer.m */; };
+		0CC138FF1C0998C2009FF6CF /* RAMConnectionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC138E81C0998C2009FF6CF /* RAMConnectionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CC139001C0998C2009FF6CF /* RAMHTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC138E91C0998C2009FF6CF /* RAMHTTPConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CC139011C0998C2009FF6CF /* RAMHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC138EA1C0998C2009FF6CF /* RAMHTTPConnection.m */; };
+		0CC139021C0998C2009FF6CF /* RAMWebSocketConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC138EB1C0998C2009FF6CF /* RAMWebSocketConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CC139031C0998C2009FF6CF /* RAMWebSocketConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC138EC1C0998C2009FF6CF /* RAMWebSocketConnection.m */; };
+		0CC139041C0998C2009FF6CF /* RAMHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC138ED1C0998C2009FF6CF /* RAMHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CC139051C0998C2009FF6CF /* RAMHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC138EE1C0998C2009FF6CF /* RAMHTTPRequest.m */; };
+		0CC139061C0998C2009FF6CF /* RAMHTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC138EF1C0998C2009FF6CF /* RAMHTTPResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CC139071C0998C2009FF6CF /* RAMHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC138F01C0998C2009FF6CF /* RAMHTTPResponse.m */; };
+		0CC139081C0998C2009FF6CF /* RAMWebSocketFrameStreamParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC138F11C0998C2009FF6CF /* RAMWebSocketFrameStreamParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CC139091C0998C2009FF6CF /* RAMWebSocketFrameStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC138F21C0998C2009FF6CF /* RAMWebSocketFrameStreamParser.m */; };
+		0CC1390A1C0998C2009FF6CF /* RAMWebSocketFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC138F31C0998C2009FF6CF /* RAMWebSocketFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CC1390B1C0998C2009FF6CF /* RAMWebSocketFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC138F41C0998C2009FF6CF /* RAMWebSocketFrame.m */; };
+		0CC1390C1C0998C2009FF6CF /* RAMHTTPHandlerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC138F51C0998C2009FF6CF /* RAMHTTPHandlerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CC1390D1C0998C2009FF6CF /* RAMHTTPHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC138F61C0998C2009FF6CF /* RAMHTTPHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CC1390E1C0998C2009FF6CF /* RAMHTTPHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC138F71C0998C2009FF6CF /* RAMHTTPHandler.m */; };
+		0CC1390F1C0998C2009FF6CF /* RAMHTTPFileHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC138F81C0998C2009FF6CF /* RAMHTTPFileHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CC139101C0998C2009FF6CF /* RAMHTTPFileHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC138F91C0998C2009FF6CF /* RAMHTTPFileHandler.m */; };
+		0CC139111C0998C2009FF6CF /* RAMWebSocketHandlerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC138FA1C0998C2009FF6CF /* RAMWebSocketHandlerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CC139121C0998C2009FF6CF /* RAMWebSocketHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC138FB1C0998C2009FF6CF /* RAMWebSocketHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CC139131C0998C2009FF6CF /* RAMWebSocketHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC138FC1C0998C2009FF6CF /* RAMWebSocketHandler.m */; };
+		0CC139531C099B01009FF6CF /* http_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CC1393E1C099ADD009FF6CF /* http_parser.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CC138D71C099856009FF6CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CC138C21C099855009FF6CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CC138CA1C099855009FF6CF;
+			remoteInfo = Ramaladni;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CC138CB1C099855009FF6CF /* Ramaladni.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ramaladni.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CC138CE1C099855009FF6CF /* Ramaladni.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ramaladni.h; sourceTree = "<group>"; };
+		0CC138D01C099856009FF6CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CC138D51C099856009FF6CF /* RamaladniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RamaladniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CC138DA1C099856009FF6CF /* RamaladniTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RamaladniTests.m; sourceTree = "<group>"; };
+		0CC138DC1C099856009FF6CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CC138E61C0998C2009FF6CF /* RAMWebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAMWebServer.h; sourceTree = "<group>"; };
+		0CC138E71C0998C2009FF6CF /* RAMWebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAMWebServer.m; sourceTree = "<group>"; };
+		0CC138E81C0998C2009FF6CF /* RAMConnectionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAMConnectionProtocol.h; sourceTree = "<group>"; };
+		0CC138E91C0998C2009FF6CF /* RAMHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAMHTTPConnection.h; sourceTree = "<group>"; };
+		0CC138EA1C0998C2009FF6CF /* RAMHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAMHTTPConnection.m; sourceTree = "<group>"; };
+		0CC138EB1C0998C2009FF6CF /* RAMWebSocketConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAMWebSocketConnection.h; sourceTree = "<group>"; };
+		0CC138EC1C0998C2009FF6CF /* RAMWebSocketConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAMWebSocketConnection.m; sourceTree = "<group>"; };
+		0CC138ED1C0998C2009FF6CF /* RAMHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAMHTTPRequest.h; sourceTree = "<group>"; };
+		0CC138EE1C0998C2009FF6CF /* RAMHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAMHTTPRequest.m; sourceTree = "<group>"; };
+		0CC138EF1C0998C2009FF6CF /* RAMHTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAMHTTPResponse.h; sourceTree = "<group>"; };
+		0CC138F01C0998C2009FF6CF /* RAMHTTPResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAMHTTPResponse.m; sourceTree = "<group>"; };
+		0CC138F11C0998C2009FF6CF /* RAMWebSocketFrameStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAMWebSocketFrameStreamParser.h; sourceTree = "<group>"; };
+		0CC138F21C0998C2009FF6CF /* RAMWebSocketFrameStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAMWebSocketFrameStreamParser.m; sourceTree = "<group>"; };
+		0CC138F31C0998C2009FF6CF /* RAMWebSocketFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAMWebSocketFrame.h; sourceTree = "<group>"; };
+		0CC138F41C0998C2009FF6CF /* RAMWebSocketFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAMWebSocketFrame.m; sourceTree = "<group>"; };
+		0CC138F51C0998C2009FF6CF /* RAMHTTPHandlerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAMHTTPHandlerProtocol.h; sourceTree = "<group>"; };
+		0CC138F61C0998C2009FF6CF /* RAMHTTPHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAMHTTPHandler.h; sourceTree = "<group>"; };
+		0CC138F71C0998C2009FF6CF /* RAMHTTPHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAMHTTPHandler.m; sourceTree = "<group>"; };
+		0CC138F81C0998C2009FF6CF /* RAMHTTPFileHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAMHTTPFileHandler.h; sourceTree = "<group>"; };
+		0CC138F91C0998C2009FF6CF /* RAMHTTPFileHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAMHTTPFileHandler.m; sourceTree = "<group>"; };
+		0CC138FA1C0998C2009FF6CF /* RAMWebSocketHandlerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAMWebSocketHandlerProtocol.h; sourceTree = "<group>"; };
+		0CC138FB1C0998C2009FF6CF /* RAMWebSocketHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAMWebSocketHandler.h; sourceTree = "<group>"; };
+		0CC138FC1C0998C2009FF6CF /* RAMWebSocketHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAMWebSocketHandler.m; sourceTree = "<group>"; };
+		0CC139361C099ADD009FF6CF /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0CC139371C099ADD009FF6CF /* .mailmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .mailmap; sourceTree = "<group>"; };
+		0CC139381C099ADD009FF6CF /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		0CC139391C099ADD009FF6CF /* AUTHORS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		0CC1393A1C099ADD009FF6CF /* bench.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bench.c; sourceTree = "<group>"; };
+		0CC1393C1C099ADD009FF6CF /* parsertrace.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parsertrace.c; sourceTree = "<group>"; };
+		0CC1393D1C099ADD009FF6CF /* url_parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = url_parser.c; sourceTree = "<group>"; };
+		0CC1393E1C099ADD009FF6CF /* http_parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = http_parser.c; sourceTree = "<group>"; };
+		0CC1393F1C099ADD009FF6CF /* http_parser.gyp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = http_parser.gyp; sourceTree = "<group>"; };
+		0CC139401C099ADD009FF6CF /* http_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http_parser.h; sourceTree = "<group>"; };
+		0CC139411C099ADD009FF6CF /* LICENSE-MIT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LICENSE-MIT"; sourceTree = "<group>"; };
+		0CC139421C099ADD009FF6CF /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		0CC139431C099ADD009FF6CF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0CC139441C099ADD009FF6CF /* test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CC138C71C099855009FF6CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC138D21C099856009FF6CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC138D61C099856009FF6CF /* Ramaladni.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CC138C11C099855009FF6CF = {
+			isa = PBXGroup;
+			children = (
+				0CC139331C099ADD009FF6CF /* external */,
+				0CC138CD1C099855009FF6CF /* Ramaladni */,
+				0CC138D91C099856009FF6CF /* RamaladniTests */,
+				0CC138CC1C099855009FF6CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CC138CC1C099855009FF6CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CC138CB1C099855009FF6CF /* Ramaladni.framework */,
+				0CC138D51C099856009FF6CF /* RamaladniTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CC138CD1C099855009FF6CF /* Ramaladni */ = {
+			isa = PBXGroup;
+			children = (
+				0CC138E51C09989B009FF6CF /* Model */,
+				0CC138CE1C099855009FF6CF /* Ramaladni.h */,
+				0CC138D01C099856009FF6CF /* Info.plist */,
+			);
+			path = Ramaladni;
+			sourceTree = "<group>";
+		};
+		0CC138D91C099856009FF6CF /* RamaladniTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CC138DA1C099856009FF6CF /* RamaladniTests.m */,
+				0CC138DC1C099856009FF6CF /* Info.plist */,
+			);
+			path = RamaladniTests;
+			sourceTree = "<group>";
+		};
+		0CC138E51C09989B009FF6CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0CC138E61C0998C2009FF6CF /* RAMWebServer.h */,
+				0CC138E71C0998C2009FF6CF /* RAMWebServer.m */,
+				0CC138E81C0998C2009FF6CF /* RAMConnectionProtocol.h */,
+				0CC138E91C0998C2009FF6CF /* RAMHTTPConnection.h */,
+				0CC138EA1C0998C2009FF6CF /* RAMHTTPConnection.m */,
+				0CC138EB1C0998C2009FF6CF /* RAMWebSocketConnection.h */,
+				0CC138EC1C0998C2009FF6CF /* RAMWebSocketConnection.m */,
+				0CC138ED1C0998C2009FF6CF /* RAMHTTPRequest.h */,
+				0CC138EE1C0998C2009FF6CF /* RAMHTTPRequest.m */,
+				0CC138EF1C0998C2009FF6CF /* RAMHTTPResponse.h */,
+				0CC138F01C0998C2009FF6CF /* RAMHTTPResponse.m */,
+				0CC138F11C0998C2009FF6CF /* RAMWebSocketFrameStreamParser.h */,
+				0CC138F21C0998C2009FF6CF /* RAMWebSocketFrameStreamParser.m */,
+				0CC138F31C0998C2009FF6CF /* RAMWebSocketFrame.h */,
+				0CC138F41C0998C2009FF6CF /* RAMWebSocketFrame.m */,
+				0CC138F51C0998C2009FF6CF /* RAMHTTPHandlerProtocol.h */,
+				0CC138F61C0998C2009FF6CF /* RAMHTTPHandler.h */,
+				0CC138F71C0998C2009FF6CF /* RAMHTTPHandler.m */,
+				0CC138F81C0998C2009FF6CF /* RAMHTTPFileHandler.h */,
+				0CC138F91C0998C2009FF6CF /* RAMHTTPFileHandler.m */,
+				0CC138FA1C0998C2009FF6CF /* RAMWebSocketHandlerProtocol.h */,
+				0CC138FB1C0998C2009FF6CF /* RAMWebSocketHandler.h */,
+				0CC138FC1C0998C2009FF6CF /* RAMWebSocketHandler.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0CC139331C099ADD009FF6CF /* external */ = {
+			isa = PBXGroup;
+			children = (
+				0CC139341C099ADD009FF6CF /* nodejs */,
+			);
+			path = external;
+			sourceTree = "<group>";
+		};
+		0CC139341C099ADD009FF6CF /* nodejs */ = {
+			isa = PBXGroup;
+			children = (
+				0CC139351C099ADD009FF6CF /* http-parser */,
+			);
+			path = nodejs;
+			sourceTree = "<group>";
+		};
+		0CC139351C099ADD009FF6CF /* http-parser */ = {
+			isa = PBXGroup;
+			children = (
+				0CC139361C099ADD009FF6CF /* .gitignore */,
+				0CC139371C099ADD009FF6CF /* .mailmap */,
+				0CC139381C099ADD009FF6CF /* .travis.yml */,
+				0CC139391C099ADD009FF6CF /* AUTHORS */,
+				0CC1393A1C099ADD009FF6CF /* bench.c */,
+				0CC1393B1C099ADD009FF6CF /* contrib */,
+				0CC1393E1C099ADD009FF6CF /* http_parser.c */,
+				0CC1393F1C099ADD009FF6CF /* http_parser.gyp */,
+				0CC139401C099ADD009FF6CF /* http_parser.h */,
+				0CC139411C099ADD009FF6CF /* LICENSE-MIT */,
+				0CC139421C099ADD009FF6CF /* Makefile */,
+				0CC139431C099ADD009FF6CF /* README.md */,
+				0CC139441C099ADD009FF6CF /* test.c */,
+			);
+			path = "http-parser";
+			sourceTree = "<group>";
+		};
+		0CC1393B1C099ADD009FF6CF /* contrib */ = {
+			isa = PBXGroup;
+			children = (
+				0CC1393C1C099ADD009FF6CF /* parsertrace.c */,
+				0CC1393D1C099ADD009FF6CF /* url_parser.c */,
+			);
+			path = contrib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0CC138C81C099855009FF6CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC138CF1C099855009FF6CF /* Ramaladni.h in Headers */,
+				0CC138FF1C0998C2009FF6CF /* RAMConnectionProtocol.h in Headers */,
+				0CC1390A1C0998C2009FF6CF /* RAMWebSocketFrame.h in Headers */,
+				0CC139021C0998C2009FF6CF /* RAMWebSocketConnection.h in Headers */,
+				0CC139121C0998C2009FF6CF /* RAMWebSocketHandler.h in Headers */,
+				0CC139041C0998C2009FF6CF /* RAMHTTPRequest.h in Headers */,
+				0CC138FD1C0998C2009FF6CF /* RAMWebServer.h in Headers */,
+				0CC1390F1C0998C2009FF6CF /* RAMHTTPFileHandler.h in Headers */,
+				0CC139001C0998C2009FF6CF /* RAMHTTPConnection.h in Headers */,
+				0CC139081C0998C2009FF6CF /* RAMWebSocketFrameStreamParser.h in Headers */,
+				0CC1390D1C0998C2009FF6CF /* RAMHTTPHandler.h in Headers */,
+				0CC1390C1C0998C2009FF6CF /* RAMHTTPHandlerProtocol.h in Headers */,
+				0CC139061C0998C2009FF6CF /* RAMHTTPResponse.h in Headers */,
+				0CC139111C0998C2009FF6CF /* RAMWebSocketHandlerProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0CC138CA1C099855009FF6CF /* Ramaladni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CC138DF1C099856009FF6CF /* Build configuration list for PBXNativeTarget "Ramaladni" */;
+			buildPhases = (
+				0CC138C61C099855009FF6CF /* Sources */,
+				0CC138C71C099855009FF6CF /* Frameworks */,
+				0CC138C81C099855009FF6CF /* Headers */,
+				0CC138C91C099855009FF6CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ramaladni;
+			productName = Ramaladni;
+			productReference = 0CC138CB1C099855009FF6CF /* Ramaladni.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0CC138D41C099856009FF6CF /* RamaladniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CC138E21C099856009FF6CF /* Build configuration list for PBXNativeTarget "RamaladniTests" */;
+			buildPhases = (
+				0CC138D11C099856009FF6CF /* Sources */,
+				0CC138D21C099856009FF6CF /* Frameworks */,
+				0CC138D31C099856009FF6CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CC138D81C099856009FF6CF /* PBXTargetDependency */,
+			);
+			name = RamaladniTests;
+			productName = RamaladniTests;
+			productReference = 0CC138D51C099856009FF6CF /* RamaladniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CC138C21C099855009FF6CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = KamedaKyosuke;
+				TargetAttributes = {
+					0CC138CA1C099855009FF6CF = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					0CC138D41C099856009FF6CF = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 0CC138C51C099855009FF6CF /* Build configuration list for PBXProject "Ramaladni" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0CC138C11C099855009FF6CF;
+			productRefGroup = 0CC138CC1C099855009FF6CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CC138CA1C099855009FF6CF /* Ramaladni */,
+				0CC138D41C099856009FF6CF /* RamaladniTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CC138C91C099855009FF6CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC138D31C099856009FF6CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CC138C61C099855009FF6CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC139011C0998C2009FF6CF /* RAMHTTPConnection.m in Sources */,
+				0CC139131C0998C2009FF6CF /* RAMWebSocketHandler.m in Sources */,
+				0CC139101C0998C2009FF6CF /* RAMHTTPFileHandler.m in Sources */,
+				0CC139531C099B01009FF6CF /* http_parser.c in Sources */,
+				0CC139091C0998C2009FF6CF /* RAMWebSocketFrameStreamParser.m in Sources */,
+				0CC139071C0998C2009FF6CF /* RAMHTTPResponse.m in Sources */,
+				0CC139031C0998C2009FF6CF /* RAMWebSocketConnection.m in Sources */,
+				0CC139051C0998C2009FF6CF /* RAMHTTPRequest.m in Sources */,
+				0CC138FE1C0998C2009FF6CF /* RAMWebServer.m in Sources */,
+				0CC1390B1C0998C2009FF6CF /* RAMWebSocketFrame.m in Sources */,
+				0CC1390E1C0998C2009FF6CF /* RAMHTTPHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC138D11C099856009FF6CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC138DB1C099856009FF6CF /* RamaladniTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CC138D81C099856009FF6CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CC138CA1C099855009FF6CF /* Ramaladni */;
+			targetProxy = 0CC138D71C099856009FF6CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CC138DD1C099856009FF6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0CC138DE1C099856009FF6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0CC138E01C099856009FF6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Ramaladni/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.organlounge.Ramaladni;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/external";
+			};
+			name = Debug;
+		};
+		0CC138E11C099856009FF6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Ramaladni/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.organlounge.Ramaladni;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/external";
+			};
+			name = Release;
+		};
+		0CC138E31C099856009FF6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RamaladniTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.organlounge.RamaladniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0CC138E41C099856009FF6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RamaladniTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.organlounge.RamaladniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CC138C51C099855009FF6CF /* Build configuration list for PBXProject "Ramaladni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CC138DD1C099856009FF6CF /* Debug */,
+				0CC138DE1C099856009FF6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CC138DF1C099856009FF6CF /* Build configuration list for PBXNativeTarget "Ramaladni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CC138E01C099856009FF6CF /* Debug */,
+				0CC138E11C099856009FF6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CC138E21C099856009FF6CF /* Build configuration list for PBXNativeTarget "RamaladniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CC138E31C099856009FF6CF /* Debug */,
+				0CC138E41C099856009FF6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CC138C21C099855009FF6CF /* Project object */;
+}
