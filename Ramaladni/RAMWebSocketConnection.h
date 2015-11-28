@@ -31,4 +31,5 @@
 @property(nullable, nonatomic, strong) NSInputStream *inputStream;
 @property(nullable, nonatomic, strong) NSOutputStream *outputStream;
 @property(nonatomic, assign) NSStreamEvent outputStreamEvent;
+- (void)close;
 @end

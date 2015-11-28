@@ -46,6 +46,7 @@
     [self.outputStream open];
 }
 
+#pragma mark - RAMConnectionProtocol
 - (void)close
 {
     [self.inputStream close];

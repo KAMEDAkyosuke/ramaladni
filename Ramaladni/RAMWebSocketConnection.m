@@ -25,14 +25,6 @@
     return conn;
 }
 
-- (void)close
-{
-    [self.inputStream close];
-    [self.outputStream close];
-    [self.delegate connectionClose:self];
-}
-
-
 - (void)writeData:(nonnull NSData*)data
 {
     if(NSStreamEventHasSpaceAvailable & self.outputStreamEvent){
@@ -51,6 +43,14 @@
     else {
         self.data = data;
     }
+}
+
+#pragma mark - RAMConnectionProtocol
+- (void)close
+{
+    [self.inputStream close];
+    [self.outputStream close];
+    [self.delegate connectionClose:self];
 }
 
 #pragma mark - NSStreamDelegate
